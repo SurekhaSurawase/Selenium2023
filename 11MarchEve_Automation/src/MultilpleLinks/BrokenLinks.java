@@ -45,7 +45,10 @@ public static void main(String[] args) throws IOException {
 			
 			//HttpURLConnection httpscode = (HttpURLConnection) L2.openConnection(); // 
 			
-			HttpURLConnection httpscode= (HttpURLConnection) L2.openConnection();
+			//HttpURLConnection httpscode= (HttpURLConnection) L2.openConnection();
+			//httpscode.connect();
+			
+			HttpURLConnection httpscode = (HttpURLConnection) L2.openConnection();
 			httpscode.connect();
 			// 200--ok
 			//400--bad request
